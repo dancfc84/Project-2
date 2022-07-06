@@ -16,6 +16,8 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "flickity": "^3.0.0",
+    "netlify": "^11.0.2",
+    "netlify-cli": "^10.7.1",
     "react": "^17.0.2",
     "react-awesome-slider": "^4.1.0",
     "react-bootstrap": "^2.4.0",
