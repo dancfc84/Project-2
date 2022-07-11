@@ -12,19 +12,17 @@ function Dailyfish() {
   useEffect(() => {
     
     function getDate() {
+      //gets current date
       currentDate = new Date().toLocaleDateString();
-      console.log(currentDate)
       if (localStorage.getItem("date") === null || localStorage.getItem("current fish" === null)) {
         localStorage.setItem("date", currentDate);
         localStorage.setItem("current fish", "")
+         //gets and sets fish of the day..
         getRandom()
       } else if (localStorage.getItem("date") === currentDate) {
         const getFish = localStorage.getItem("current fish")
         const storageFish = JSON.parse(getFish)
         setDisplayFish(storageFish)
-        console.log("fish of the day is correct")
-        console.log(storageFish)
-        console.dir(storageFish)
       } else {
         getRandom()
       }
@@ -34,15 +32,12 @@ function Dailyfish() {
       const fishdex = Math.floor(Math.random() * 115);
       const res = await fetch("https://cryptic-everglades-76066.herokuapp.com/https://www.fishwatch.gov/api/species")
       const data = await res.json()
-      console.log(data)
+      //picks random fish from the listed species
       const dailyfish = data[fishdex]
-      console.log(dailyfish)
       setDisplayFish(dailyfish)
-      console.log(dailyfish["Species Name"])
       localStorage.setItem("current fish", JSON.stringify(dailyfish));
       const updateDate = new Date().toLocaleDateString();
       localStorage.setItem("date", updateDate)
-      
     }
     getDate()
   }, [])
