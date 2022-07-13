@@ -22,8 +22,9 @@ In the second project for the General Assembly Software Engineering Flex course 
 
 ## Project Overview
 
-- We used an API which had detailed information about fish stocks in the Atlantic ocean
-- We decided to list all the different species and also have a sustainable eating section where we offered alternatives to the more popular overfished species
+- Pair Programming
+- We built a React application using an API which had detailed information about fish stocks in the Atlantic ocean
+- We decided to show all the different species in an index page and also have a sustainable eating section where we offered alternatives to the more popular overfished species
 
 ### Homepage
 
