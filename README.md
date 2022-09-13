@@ -80,15 +80,15 @@ We then decided that I would create the homepage, fish index and the individual 
 
 ### Fish Index Page
 
-- •	The index page consists of a search box and cards showing all the individual species of fish from the public API.
+- The index page consists of a search box and cards showing all the individual species of fish from the public API.
 
 ![Screenshot - FishIndex](https://github.com/dancfc84/Project-2/blob/main/screenshots/FishIndex.png)
 
 #### Featured Code - Searching for specific fish species
-•	Search state was created using useState.
-•	As values are entered into the search input the search state is updated in real-time.
-•	The filterFish function uses the filter method to return an array which only contains fish that match the search variable.
-•	This array is then iterated through using the map method, therefore, it only displays fish that match the entered text in the search input, if there is no text it displays all fish.
+- Search state was created using useState.
+-	As values are entered into the search input the search state is updated in real-time.
+-	The filterFish function uses the filter method to return an array which only contains fish that match the search variable.
+-	This array is then iterated through using the map method, therefore, it only displays fish that match the entered text in the search input, if there is no text it displays all fish.
 
 ![Screenshot - FishIndexFilter code](https://github.com/dancfc84/Project-2/blob/main/screenshots/FishIndexFilter.png)
 
