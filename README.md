@@ -14,10 +14,10 @@ You will find the deployed app here:  [Fish Watch](https://fish-watch.netlify.ap
 ## Timeframe & Working Team
 
 -	Timeframe: 
-  -	1 week
+    -	1 week
 
 -	Working Team:
-  -	Luke O’Brian
+    -	Luke O’Brian
 
 
 ## Technologies used 
