@@ -116,7 +116,7 @@ Pair-coding was beneficial; I enjoyed creating logic and troubleshooting blocker
 
 ## Bugs
 
-Issues with viewing alternative recipes in the Sustainable Eating section, it doesn’t always expand and show recipes, the code needs to be reviewed, there also could be an issue with the recipe API.
+- Issues with viewing alternative recipes in the Sustainable Eating section, it doesn’t always expand and show recipes, the code needs to be reviewed, there also could be an issue with the recipe API.
 
 ## Future Improvements
 
